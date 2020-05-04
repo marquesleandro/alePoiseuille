@@ -193,7 +193,7 @@ elif polynomial_option == 3:
  Sc = 1.0
  CFL = 0.5
  dt = float(CFL*minLengthMesh)
- #dt = 0.1   #linear result ok 
+ #dt = 0.1  
 
 
 
