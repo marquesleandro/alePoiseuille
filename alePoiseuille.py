@@ -172,8 +172,13 @@ if polynomial_option == 1 or polynomial_option == 2:
 
 # Quad Element
 elif polynomial_option == 3:
- mshFileName = 'quadPoiseuille.msh'
- 
+ #mshFileName = 'quadPoiseuille.msh'
+ #mshFileName = 'quad1.msh'
+ mshFileName = 'quad2.msh'
+ #mshFileName = 'quad3.msh'
+ #mshFileName = 'quad4.msh'
+
+
  pathMSHFile = searchMSH.Find(mshFileName)
  if pathMSHFile == 'File not found':
   sys.exit()
